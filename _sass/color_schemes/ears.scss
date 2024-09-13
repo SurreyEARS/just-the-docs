@@ -1,5 +1,3 @@
-@import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme
-
 $color-scheme: ears;
 $body-background-color: #1e1723;
 $body-heading-color: $grey-lt-000;
@@ -16,4 +14,5 @@ $table-background-color: $grey-dk-250;
 $search-background-color: $grey-dk-250;
 $search-result-preview-color: $grey-dk-000;
 $border-color: $grey-dk-200;
-$grey-dk-100: #9384BF;
+
+@import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme
